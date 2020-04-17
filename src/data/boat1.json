@@ -1,0 +1,687 @@
+[
+  [
+    {
+      "fill": "",
+      "icon": "moon",
+      "map": "green",
+      "border": ["top", "left"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["top", "right"]
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "rat": true,
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "rat": true,
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "rat": true,
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "rat": true,
+      "border": ["top", "right"]
+    }
+  ],
+  [
+    {
+      "fill": "",
+      "icon": "moon",
+      "rat": true,
+      "border": ["bottom", "left", "top"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["bottom", "top"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["bottom", "top"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["bottom", "right"]
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "map": "blue"
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "border": ["left", "top", "right"]
+    }
+  ],
+  [
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["top", "left"]
+    },
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["right", "top"]
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "border": ["left"]
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "rat": true,
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "rat": true,
+      "border": ["top", "right"]
+    }
+  ],
+  [
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["top", "left"]
+    },
+    {
+      "fill": "",
+      "icon": "parrot",
+      "map": "red"
+    },
+    {
+      "fill": "",
+      "icon": "parrot"
+    },
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["right"]
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "border": ["left", "top"]
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "rat": true,
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "rat": true,
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "border": ["top", "right"]
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "border": ["left"]
+    },
+    {
+      "fill": "",
+      "icon": "feather"
+    },
+    {
+      "fill": "",
+      "icon": "feather"
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "rat": true,
+      "border": ["right", "top"]
+    },
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["top", "right"]
+    }
+  ],
+  [
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["left"]
+    },
+    {
+      "fill": "",
+      "icon": "parrot"
+    },
+    {
+      "fill": "",
+      "icon": "parrot"
+    },
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["right"]
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "border": ["left"]
+    },
+    {
+      "fill": "",
+      "icon": "apple"
+    },
+    {
+      "fill": "",
+      "icon": "apple"
+    },
+    {
+      "fill": "",
+      "icon": "apple"
+    },
+    {
+      "fill": "",
+      "icon": "apple"
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "border": ["right"]
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "border": ["left"]
+    },
+    {
+      "fill": "",
+      "icon": "feather"
+    },
+    {
+      "fill": "",
+      "icon": "feather"
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "border": ["right"]
+    },
+    {
+      "fill": "",
+      "icon": "parrot"
+    },
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["top", "right", "bottom"]
+    }
+  ],
+  [
+    {
+      "fill": "",
+      "icon": "parrot",
+      "rat": true,
+      "border": ["left", "bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "parrot",
+      "rat": true
+    },
+    {
+      "fill": "",
+      "icon": "parrot"
+    },
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["right"]
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "border": ["left", "bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "apple",
+      "border": ["bottom", "right"]
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "border": ["left"]
+    },
+    {
+      "fill": "",
+      "icon": "feather"
+    },
+    {
+      "fill": "",
+      "icon": "feather"
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "map": "orange",
+      "border": ["right", "bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["right", "bottom"]
+    }
+  ],
+  [
+    {
+      "fill": "",
+      "icon": "parrot",
+      "rat": true,
+      "border": ["left", "bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "parrot",
+      "border": ["right", "bottom"]
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "rat": true
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "border": ["left"]
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "border": ["bottom", "right"]
+    }
+  ],
+  [
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["top", "left", "bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["top", "bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["top", "bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "map": "purple",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["top", "right"]
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "rat": true
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "rat": true,
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "feather",
+      "border": ["left", "right", "bottom"]
+    }
+  ],
+  [
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["bottom", "left"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "moon",
+      "rat": true,
+      "border": ["right", "bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "rat": true,
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "icon": "",
+      "rat": true,
+      "border": ["bottom", "right"]
+    }
+  ]
+]
