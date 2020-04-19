@@ -3,7 +3,7 @@
     <div class="colors">
       <div class="color-group">
         <div
-          @click="selectedColor = ''"
+          @click="selectColor('')"
           class="color clear"
           :class="selectedColor === '' && 'active'"
         ></div>
@@ -11,27 +11,27 @@
       <p class="color-label">Cats:</p>
       <div class="color-group">
         <div
-          @click="selectedColor = 'green'"
+          @click="selectColor('green')"
           class="color green"
           :class="selectedColor === 'green' && 'active'"
         ></div>
         <div
-          @click="selectedColor = 'blue'"
+          @click="selectColor('blue')"
           class="color blue"
           :class="selectedColor === 'blue' && 'active'"
         ></div>
         <div
-          @click="selectedColor = 'orange'"
+          @click="selectColor('orange')"
           class="color orange"
           :class="selectedColor === 'orange' && 'active'"
         ></div>
         <div
-          @click="selectedColor = 'red'"
+          @click="selectColor('red')"
           class="color red"
           :class="selectedColor === 'red' && 'active'"
         ></div>
         <div
-          @click="selectedColor = 'purple'"
+          @click="selectColor('purple')"
           class="color purple"
           :class="selectedColor === 'purple' && 'active'"
         ></div>
@@ -39,7 +39,7 @@
       <p class="color-label">Common:</p>
       <div class="color-group">
         <div
-          @click="selectedColor = 'common'"
+          @click="selectColor('common')"
           class="color common"
           :class="selectedColor === 'common' && 'active'"
         ></div>
@@ -47,7 +47,7 @@
       <p class="color-label">Rare:</p>
       <div class="color-group">
         <div
-          @click="selectedColor = 'rare'"
+          @click="selectColor('rare')"
           class="color rare"
           :class="selectedColor === 'rare' && 'active'"
         ></div>
@@ -64,7 +64,7 @@
           :class="`row-${i + 1}`"
         >
           <div
-            @click="handleClickFilled(i, j)"
+            @click="handleClickFilled( i, j )"
             v-if="square.fill"
             class="fill"
             :style="{ background: square.fill }"
@@ -92,7 +92,6 @@
 
 <script>
 import Map from "./Map";
-import boat1 from "../data/boat1.json";
 import apple from "../assets/icons/apple.svg";
 import parrot from "../assets/icons/parrot.svg";
 import feather from "../assets/icons/feather.svg";
@@ -105,8 +104,6 @@ export default {
   },
   data() {
     return {
-      selectedColor: "",
-      boat: boat1,
       rat,
       icons: {
         apple,
@@ -116,17 +113,24 @@ export default {
       },
     };
   },
-  methods: {
-    handleClick(i, j) {
-      this.boat[i][j].fill = getComputedStyle(
-        document.documentElement,
-      ).getPropertyValue(`--var-${this.selectedColor}`);
-    },
-    handleClickFilled(i, j) {
-      if (this.selectedColor === "") {
-        this.boat[i][j].fill = "";
+  computed: {
+      boat() {
+          return this.$store.state.boat
+      },
+      selectedColor() {
+          return this.$store.state.selectedColor
       }
-    },
+  },
+  methods: {
+      selectColor(color) {
+          this.$store.commit('selectColor', color)
+      },
+      handleClick(i, j) {
+          this.$store.commit('handleClick', {i, j})
+      },
+      handleClickFilled(i, j) {
+          this.$store.commit('handleClickFilled', {i, j})
+      }
   },
 };
 </script>
