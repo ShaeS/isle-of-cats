@@ -52,6 +52,9 @@
           :class="selectedColor === 'rare' && 'active'"
         ></div>
       </div>
+      <button v-if="drawing" @click="placePiece" class="place">
+        Place Piece
+      </button>
     </div>
     <div class="boat">
       <template v-for="(row, i) in boat">
@@ -64,7 +67,7 @@
           :class="`row-${i + 1}`"
         >
           <div
-            @click="handleClickFilled( i, j )"
+            @click="handleClickFilled(i, j)"
             v-if="square.fill"
             class="fill"
             :style="{ background: square.fill }"
@@ -114,23 +117,32 @@ export default {
     };
   },
   computed: {
-      boat() {
-          return this.$store.state.boat
-      },
-      selectedColor() {
-          return this.$store.state.selectedColor
-      }
+    drawing() {
+      return this.$store.state.drawing;
+    },
+    boat() {
+      return this.$store.state.boat;
+    },
+    selectedColor() {
+      return this.$store.state.selectedColor;
+    },
+    tileColor() {
+      return this.$store.getters.tileColor;
+    },
   },
   methods: {
-      selectColor(color) {
-          this.$store.commit('selectColor', color)
-      },
-      handleClick(i, j) {
-          this.$store.commit('handleClick', {i, j})
-      },
-      handleClickFilled(i, j) {
-          this.$store.commit('handleClickFilled', {i, j})
-      }
+    placePiece() {
+      this.$store.dispatch("placePiece");
+    },
+    selectColor(color) {
+      this.$store.commit("selectColor", color);
+    },
+    handleClick(i, j) {
+      this.$store.commit("handleClick", { i, j, color: this.tileColor });
+    },
+    handleClickFilled(i, j) {
+      this.$store.commit("handleClickFilled", { i, j });
+    },
   },
 };
 </script>
@@ -225,6 +237,26 @@ export default {
   top: 4px;
   left: 4px;
   width: 32px;
+}
+
+.place {
+  margin-left: 48px;
+  background: var(--var-green);
+  color: white;
+  padding: 12px 24px;
+  border: 0;
+  font-size: 18px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.place:hover {
+  background: var(--var-green-dark);
+}
+
+.place:focus {
+  outline: none;
 }
 
 .colors {

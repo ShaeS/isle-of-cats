@@ -141,7 +141,6 @@ h2 {
   border: 0;
   font-size: 16px;
   font-weight: bold;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 .button:hover {

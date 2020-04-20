@@ -61,15 +61,21 @@ export default {
 }
 
 :root {
-  --var-green: rgb(31, 161, 60);
-  --var-orange: rgb(182, 118, 23);
-  --var-purple: rgb(143, 77, 153);
-  --var-red: rgb(171, 48, 62);
-  --var-red-dark: rgb(143, 24, 38);
-  --var-blue: rgb(104, 179, 204);
-  --var-blue-dark: rgb(62, 152, 182);
-  --var-common: rgb(243, 216, 128);
-  --var-rare: rgb(231, 190, 4);
+  --var-green: #1fa13c;
+  --var-green-dark: #158b2f;
+  --var-orange: #b67617;
+  --var-purple: #8f4d99;
+  --var-red: #ab303e;
+  --var-red-dark: #8f1826;
+  --var-blue: #68b3cc;
+  --var-blue-dark: #3e98b6;
+  --var-common: #929292;
+  --var-rare: #e7be04;
+}
+
+button,
+input {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 .container {
