@@ -1,392 +1,503 @@
 [
   [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "map": "green",
       "border": ["top", "left"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["top", "right"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "rat": true,
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "rat": true,
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "rat": true,
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "rat": true,
       "border": ["top", "right"]
-    }
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
   ],
   [
+    null,
+    null,
+    null,
+    null,
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "rat": true,
       "border": ["bottom", "left", "top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["bottom", "top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["bottom", "top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["bottom", "right"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "map": "blue"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "border": ["left", "top", "right"]
-    }
+    },
+    null,
+    null,
+    null,
+    null,
+    null
   ],
   [
+    null,
+
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["top", "left"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["right", "top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "border": ["left"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "rat": true,
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "rat": true,
       "border": ["top", "right"]
-    }
+    },
+    null,
+    null,
+    null
   ],
   [
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["top", "left"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "map": "red"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["right"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple",
       "border": ["left", "top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple",
       "border": ["top"]
     },
     {
       "fill": "",
-      "icon": "apple",
-      "rat": true,
-      "border": ["top"]
-    },
-    {
-      "fill": "",
+      "group": null,
       "icon": "apple",
       "rat": true,
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
+      "icon": "apple",
+      "rat": true,
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "group": null,
       "icon": "apple",
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple",
       "border": ["top", "right"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "border": ["left"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "rat": true,
       "border": ["right", "top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["top", "right"]
-    }
+    },
+    null
   ],
   [
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["left"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["right"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple",
       "border": ["left"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple",
       "border": ["right"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "border": ["left"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "border": ["right"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["top", "right", "bottom"]
     }
@@ -394,294 +505,384 @@
   [
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "rat": true,
       "border": ["left", "bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "rat": true
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["right"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple",
       "border": ["left", "bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "apple",
       "border": ["bottom", "right"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "border": ["left"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather"
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "map": "orange",
       "border": ["right", "bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["right", "bottom"]
-    }
+    },
+    null
   ],
   [
+    null,
+
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "rat": true,
       "border": ["left", "bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "parrot",
       "border": ["right", "bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "rat": true
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "border": ["left"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "border": ["bottom", "right"]
-    }
+    },
+    null,
+    null,
+    null
   ],
   [
+    null,
+    null,
+    null,
+    null,
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["top", "left", "bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["top", "bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["top", "bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "map": "purple",
       "border": ["top"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["top", "right"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": ""
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "rat": true
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "rat": true,
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "feather",
       "border": ["left", "right", "bottom"]
-    }
+    },
+    null,
+    null,
+    null,
+    null,
+    null
   ],
   [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["bottom", "left"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "moon",
       "rat": true,
       "border": ["right", "bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "rat": true,
       "border": ["bottom"]
     },
     {
       "fill": "",
+      "group": null,
       "icon": "",
       "rat": true,
       "border": ["bottom", "right"]
-    }
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
   ]
 ]

@@ -1,7 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
 import createPersistedState from "vuex-persistedstate";
-const tinycolor = require("tinycolor2");
 
 import boat1 from "../data/boat1.json";
 
@@ -76,20 +75,9 @@ export default new Vuex.Store({
       if (state.selectedColor === "") {
         return "";
       }
-      const step = state.colorStep[state.selectedColor];
-      if (step % 2) {
-        return tinycolor(
-          getComputedStyle(document.documentElement).getPropertyValue(
-            `--var-${state.selectedColor}`,
-          ),
-        ).darken(step * 6);
-      } else {
-        return tinycolor(
-          getComputedStyle(document.documentElement).getPropertyValue(
-            `--var-${state.selectedColor}`,
-          ),
-        ).lighten(step * 6);
-      }
+      return getComputedStyle(document.documentElement).getPropertyValue(
+        `--var-${state.selectedColor}`,
+      );
     },
   },
   mutations: {
@@ -106,6 +94,11 @@ export default new Vuex.Store({
       if (state.selectedColor === "") {
         state.boat[i][j].fill = "";
       }
+    },
+    assignNumber(state, payload) {
+      payload.map(({i,j}) => {
+        state.boat[i][j].group = state.colorStep[state.selectedColor];
+      });
     },
     updateLessons(state, payload) {
       state.lessons = payload;
@@ -127,7 +120,9 @@ export default new Vuex.Store({
     newGame({ commit }) {
       commit("resetState");
     },
-    placePiece({ state, commit }) {
+    placePiece({ state, commit }, payload) {
+      console.log(payload);
+      commit("assignNumber", payload);
       state.colorStep[state.selectedColor]++;
       state.drawing = false;
       commit("selectColor", "");

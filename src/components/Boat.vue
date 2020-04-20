@@ -58,20 +58,20 @@
     </div>
     <div class="boat">
       <template v-for="(row, i) in boat">
-        <div :key="`${i}-offset`" class="offset" :class="`row-${i + 1}`"></div>
         <div
-          @click="handleClick(i, j)"
+          @click="handleClick(i, j, square)"
           v-for="(square, j) in row"
           :key="`${i}-${j}`"
           class="square"
-          :class="`row-${i + 1}`"
+          :class="[`row-${i + 1}`, !square && 'empty']"
         >
+        <template v-if="square">
           <div
             @click="handleClickFilled(i, j)"
             v-if="square.fill"
             class="fill"
             :style="{ background: square.fill }"
-          ></div>
+          ><p v-if="square.group !== null">{{square.group}}</p></div>
           <template v-if="square.border">
             <div
               v-for="border in square.border"
@@ -87,6 +87,8 @@
           />
           <img v-if="square.icon" class="icon" :src="icons[square.icon]" />
           <img v-if="square.rat" class="rat" :src="rat" />
+          
+          </template>
         </div>
       </template>
     </div>
@@ -114,6 +116,7 @@ export default {
         parrot,
         moon,
       },
+      currentPlaces: []
     };
   },
   computed: {
@@ -132,13 +135,17 @@ export default {
   },
   methods: {
     placePiece() {
-      this.$store.dispatch("placePiece");
+      this.$store.dispatch("placePiece", this.currentPlaces);
+      this.currentPlaces = [];
     },
     selectColor(color) {
       this.$store.commit("selectColor", color);
     },
-    handleClick(i, j) {
-      this.$store.commit("handleClick", { i, j, color: this.tileColor });
+    handleClick(i, j, square) {
+      if (square) {
+        this.currentPlaces.push({i, j});
+        this.$store.commit("handleClick", { i, j, color: this.tileColor });
+      }
     },
     handleClickFilled(i, j) {
       this.$store.commit("handleClickFilled", { i, j });
@@ -173,7 +180,16 @@ export default {
   box-shadow: 0 0 0 1px rgb(156, 156, 156);
 }
 
+.square.empty {
+  box-shadow: none;
+  background: none;
+  cursor: default;
+}
+
 .fill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   opacity: 0.75;
   z-index: 2;
@@ -181,6 +197,9 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
+  color : white;
+  font-weight: 900;
+  font-size: 24px;
 }
 
 .border {
@@ -355,22 +374,12 @@ export default {
   background: var(--var-rare);
 }
 
-.row-1.offset {
-  grid-column: span 8;
-}
-
 .row-2 {
   grid-row-start: 2;
-}
-.row-2.offset {
-  grid-column: span 5;
 }
 
 .row-3 {
   grid-row-start: 3;
-}
-.row-3.offset {
-  grid-column: span 2;
 }
 
 .row-4 {
@@ -388,21 +397,12 @@ export default {
 .row-7 {
   grid-row-start: 7;
 }
-.row-7.offset {
-  grid-column: span 2;
-}
 
 .row-8 {
   grid-row-start: 8;
 }
-.row-8.offset {
-  grid-column: span 5;
-}
 
 .row-9 {
   grid-row-start: 9;
-}
-.row-9.offset {
-  grid-column: span 8;
 }
 </style>
