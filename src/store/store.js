@@ -9,6 +9,7 @@ Vue.use(Vuex);
 const getDefaultState = () => {
   return {
     selectedColor: "",
+    currentPlaces: [],
     drawing: false,
     colorStep: {
       red: 0,
@@ -88,15 +89,18 @@ export default new Vuex.Store({
       if (state.selectedColor) {
         state.drawing = true;
       }
-      state.boat[i][j].fill = color;
-    },
-    handleClickFilled(state, { i, j }) {
-      if (state.selectedColor === "") {
+      if (state.boat[i][j].fill === "") {
+        state.boat[i][j].fill = color;
+        state.currentPlaces.push({i, j});
+      } else {
+        const index = state.currentPlaces.findIndex(({ii, jj}) => ii === i && jj === j);
+        state.currentPlaces.splice(index, 1)
         state.boat[i][j].fill = "";
+        state.boat[i][j].group = null;
       }
     },
-    assignNumber(state, payload) {
-      payload.map(({i,j}) => {
+    assignNumber(state) {
+      state.currentPlaces.map(({ i, j }) => {
         state.boat[i][j].group = state.colorStep[state.selectedColor];
       });
     },
@@ -120,12 +124,12 @@ export default new Vuex.Store({
     newGame({ commit }) {
       commit("resetState");
     },
-    placePiece({ state, commit }, payload) {
-      console.log(payload);
-      commit("assignNumber", payload);
+    placePiece({ state, commit }) {
+      commit("assignNumber");
       state.colorStep[state.selectedColor]++;
       state.drawing = false;
       commit("selectColor", "");
+      state.currentPlaces = [];
     },
   },
 });

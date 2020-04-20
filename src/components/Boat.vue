@@ -58,66 +58,18 @@
     </div>
     <div class="boat">
       <template v-for="(row, i) in boat">
-        <div
-          @click="handleClick(i, j, square)"
-          v-for="(square, j) in row"
-          :key="`${i}-${j}`"
-          class="square"
-          :class="[`row-${i + 1}`, !square && 'empty']"
-        >
-        <template v-if="square">
-          <div
-            @click="handleClickFilled(i, j)"
-            v-if="square.fill"
-            class="fill"
-            :style="{ background: square.fill }"
-          ><p v-if="square.group !== null">{{square.group}}</p></div>
-          <template v-if="square.border">
-            <div
-              v-for="border in square.border"
-              :key="`${i}-${j}-${border}`"
-              class="border"
-              :class="border"
-            ></div>
-          </template>
-          <Map
-            v-if="square.map"
-            class="map"
-            :style="{ fill: `var(--var-${square.map})` }"
-          />
-          <img v-if="square.icon" class="icon" :src="icons[square.icon]" />
-          <img v-if="square.rat" class="rat" :src="rat" />
-          
-          </template>
-        </div>
+        <Square v-for="(square, j) in row" :key="`${i}-${j}`" :square="square" :i="i" :j="j" />
       </template>
     </div>
   </div>
 </template>
 
 <script>
-import Map from "./Map";
-import apple from "../assets/icons/apple.svg";
-import parrot from "../assets/icons/parrot.svg";
-import feather from "../assets/icons/feather.svg";
-import moon from "../assets/icons/moon.svg";
-import rat from "../assets/icons/rat.svg";
+import Square from "./Square";
 
 export default {
   components: {
-    Map,
-  },
-  data() {
-    return {
-      rat,
-      icons: {
-        apple,
-        feather,
-        parrot,
-        moon,
-      },
-      currentPlaces: []
-    };
+    Square
   },
   computed: {
     drawing() {
@@ -129,26 +81,13 @@ export default {
     selectedColor() {
       return this.$store.state.selectedColor;
     },
-    tileColor() {
-      return this.$store.getters.tileColor;
-    },
   },
   methods: {
     placePiece() {
-      this.$store.dispatch("placePiece", this.currentPlaces);
-      this.currentPlaces = [];
+      this.$store.dispatch("placePiece");
     },
     selectColor(color) {
       this.$store.commit("selectColor", color);
-    },
-    handleClick(i, j, square) {
-      if (square) {
-        this.currentPlaces.push({i, j});
-        this.$store.commit("handleClick", { i, j, color: this.tileColor });
-      }
-    },
-    handleClickFilled(i, j) {
-      this.$store.commit("handleClickFilled", { i, j });
     },
   },
 };
@@ -169,93 +108,6 @@ export default {
   grid-template-columns: repeat(23, 60px);
   grid-gap: 1px;
   filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.2));
-}
-
-.square {
-  cursor: pointer;
-  background: white;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 0 0 1px rgb(156, 156, 156);
-}
-
-.square.empty {
-  box-shadow: none;
-  background: none;
-  cursor: default;
-}
-
-.fill {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  opacity: 0.75;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  color : white;
-  font-weight: 900;
-  font-size: 24px;
-}
-
-.border {
-  position: absolute;
-  z-index: 1;
-  background: rgb(105, 105, 105);
-}
-
-.border.left {
-  left: -2px;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-}
-
-.border.top {
-  top: -2px;
-  left: 0;
-  right: 0;
-  height: 3px;
-}
-
-.border.bottom {
-  bottom: -2px;
-  left: 0;
-  right: 0;
-  height: 3px;
-}
-
-.border.right {
-  right: -2px;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-}
-
-.icon {
-  opacity: 0.3;
-  width: 14px;
-  position: absolute;
-  bottom: 4px;
-  right: 4px;
-}
-
-.map {
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  width: 40px;
-}
-
-.rat {
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  width: 32px;
 }
 
 .place {
@@ -372,37 +224,5 @@ export default {
 
 .color.rare {
   background: var(--var-rare);
-}
-
-.row-2 {
-  grid-row-start: 2;
-}
-
-.row-3 {
-  grid-row-start: 3;
-}
-
-.row-4 {
-  grid-row-start: 4;
-}
-
-.row-5 {
-  grid-row-start: 5;
-}
-
-.row-6 {
-  grid-row-start: 6;
-}
-
-.row-7 {
-  grid-row-start: 7;
-}
-
-.row-8 {
-  grid-row-start: 8;
-}
-
-.row-9 {
-  grid-row-start: 9;
 }
 </style>

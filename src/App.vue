@@ -62,7 +62,7 @@ export default {
 
 :root {
   --var-green: #1fa13c;
-  --var-green-dark: #158b2f;
+  --var-green-dark: #0e7a26;
   --var-orange: #b67617;
   --var-purple: #8f4d99;
   --var-red: #ab303e;
