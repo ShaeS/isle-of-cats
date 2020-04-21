@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div class="title-wrap">
+      <a class="rules" href="http://thecityofkings.com/wp-content/uploads/2020/04/The-Isle-of-Cats-Remote-Edition-Rulebook-v1.0.pdf" target="_blank">Game Rules</a>
       <h1>The Isle Of Cats: Remote Edition</h1>
       <button @click="resetGame" class="reset">Reset Game</button>
     </div>
@@ -70,6 +71,7 @@ export default {
   --var-blue: #68b3cc;
   --var-blue-dark: #3e98b6;
   --var-common: #929292;
+  --var-common-dark: #7a7a7a;
   --var-rare: #e7be04;
 }
 
@@ -80,7 +82,7 @@ input {
 
 .container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1378px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
@@ -96,15 +98,13 @@ h1 {
 .title-wrap {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 48px;
 }
 
 .reset {
-  position: absolute;
-  right: 0;
-  margin-left: 48px;
+  margin-left: 24px;
   background: var(--var-red);
   color: white;
   padding: 8px 16px;
@@ -121,6 +121,15 @@ h1 {
 
 .reset:focus {
   outline: none;
+}
+
+.rules {
+  margin-right: 24px;
+  color: var(--var-green);
+  text-decoration: none;
+  font-weight: 900;
+  line-height: 1;
+  border-bottom: 2px solid var(--var-green);
 }
 
 .info-wrap {

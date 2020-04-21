@@ -8,6 +8,7 @@
       <div
         v-if="square.fill"
         class="fill"
+        :class="{hide: hiding}"
         :style="{ background: square.fill, ...borderStyles }"
       ></div>
       <template v-if="square.border">
@@ -42,7 +43,7 @@ export default {
   components: {
     Map,
   },
-  props: ["i", "j", "square"],
+  props: ["i", "j", "square", "hiding"],
   data() {
     return {
       rat,
@@ -70,25 +71,25 @@ export default {
 
       const styles = {};
       if (top && (top.group !== current.group || top.fill !== current.fill)) {
-        styles.borderTopColor = tinycolor(current.fill).lighten(15)
+        styles.borderTopColor = tinycolor(current.fill).lighten(15);
       }
       if (
         left &&
         (left.group !== current.group || left.fill !== current.fill)
       ) {
-        styles.borderLeftColor = tinycolor(current.fill).lighten(15)
+        styles.borderLeftColor = tinycolor(current.fill).lighten(15);
       }
       if (
         right &&
         (right.group !== current.group || right.fill !== current.fill)
       ) {
-        styles.borderRightColor = tinycolor(current.fill).lighten(15)
+        styles.borderRightColor = tinycolor(current.fill).lighten(15);
       }
       if (
         bottom &&
         (bottom.group !== current.group || bottom.fill !== current.fill)
       ) {
-        styles.borderBottomColor = tinycolor(current.fill).lighten(15)
+        styles.borderBottomColor = tinycolor(current.fill).lighten(15);
       }
       return styles;
     },
@@ -127,7 +128,7 @@ export default {
   align-items: center;
   justify-content: center;
   position: absolute;
-  opacity: 0.95;
+  opacity: 0.9;
   z-index: 2;
   top: -1px;
   left: -1px;
@@ -136,6 +137,10 @@ export default {
   border-width: 3px;
   border-style: solid;
   border-color: transparent;
+}
+
+.fill.hide {
+  opacity: 0.2;
 }
 
 .border {
@@ -192,6 +197,30 @@ export default {
   top: 4px;
   left: 4px;
   width: 32px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .rat {
+    width: 28px;
+  }
+
+  .map {
+    width: 28px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .rat {
+    width: 24px;
+  }
+
+  .map {
+    width: 24px;
+  }
+
+  .icon {
+    width: 10px;
+  }
 }
 
 .row-2 {

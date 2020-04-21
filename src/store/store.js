@@ -131,5 +131,13 @@ export default new Vuex.Store({
       commit("selectColor", "");
       state.currentPlaces = [];
     },
+    cancelPiece({ state, commit }) {
+      state.drawing = false;
+      commit("selectColor", "");
+      state.currentPlaces.forEach(({i,j}) => {
+        state.boat[i][j].fill = '';
+      });
+      state.currentPlaces = [];
+    },
   },
 });
