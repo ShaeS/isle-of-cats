@@ -12,7 +12,7 @@
       "group": null,
       "icon": "moon",
       "border": ["top", "left"],
-      "map": "green"
+      "map": "orange"
     },
     {
       "fill": "",
@@ -36,29 +36,25 @@
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top", "right"],
-      "rat": true
+      "border": ["top", "right"]
     },
     null,
     null,
@@ -77,8 +73,7 @@
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["bottom", "left", "top"],
-      "rat": true
+      "border": ["bottom", "left", "top"]
     },
     {
       "fill": "",
@@ -135,7 +130,7 @@
       "fill": "",
       "group": null,
       "icon": "",
-      "map": "blue"
+      "map": "red"
     },
     {
       "fill": "",
@@ -189,7 +184,14 @@
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
@@ -214,17 +216,14 @@
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
-      "icon": ""
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
@@ -246,15 +245,13 @@
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["top", "right"],
-      "rat": true
+      "border": ["top", "right"]
     },
     null,
     null,
@@ -265,13 +262,14 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["top", "left"]
+      "border": ["top", "left"],
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "map": "red"
+      "map": "green"
     },
     {
       "fill": "",
@@ -305,15 +303,7 @@
       "fill": "",
       "group": null,
       "icon": "apple",
-      "border": ["top"],
-      "rat": true
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "apple",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
@@ -325,7 +315,14 @@
       "fill": "",
       "group": null,
       "icon": "apple",
-      "border": ["top", "right"]
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "apple",
+      "border": ["top", "right"],
+      "rat": true
     },
     {
       "fill": "",
@@ -335,12 +332,14 @@
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
@@ -366,14 +365,14 @@
     {
       "fill": "",
       "group": null,
-      "icon": "feather"
+      "icon": "feather",
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["right", "top"],
-      "rat": true
+      "border": ["right", "top"]
     },
     {
       "fill": "",
@@ -388,7 +387,8 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["left"]
+      "border": ["left"],
+      "rat": true
     },
     {
       "fill": "",
@@ -482,7 +482,8 @@
     {
       "fill": "",
       "group": null,
-      "icon": "feather"
+      "icon": "feather",
+      "rat": true
     },
     {
       "fill": "",
@@ -513,8 +514,7 @@
     {
       "fill": "",
       "group": null,
-      "icon": "parrot",
-      "rat": true
+      "icon": "parrot"
     },
     {
       "fill": "",
@@ -536,7 +536,8 @@
       "fill": "",
       "group": null,
       "icon": "apple",
-      "border": ["left", "bottom"]
+      "border": ["left", "bottom"],
+      "rat": true
     },
     {
       "fill": "",
@@ -614,7 +615,7 @@
       "group": null,
       "icon": "feather",
       "border": ["right", "bottom"],
-      "map": "orange"
+      "map": "purple"
     },
     {
       "fill": "",
@@ -631,8 +632,7 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["left", "bottom"],
-      "rat": true
+      "border": ["left", "bottom"]
     },
     {
       "fill": "",
@@ -704,8 +704,7 @@
     {
       "fill": "",
       "group": null,
-      "icon": "",
-      "rat": true
+      "icon": ""
     },
     {
       "fill": "",
@@ -769,7 +768,7 @@
       "group": null,
       "icon": "moon",
       "border": ["top"],
-      "map": "purple"
+      "map": "blue"
     },
     {
       "fill": "",
@@ -809,7 +808,8 @@
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["left", "right", "bottom"]
+      "border": ["left", "right", "bottom"],
+      "rat": true
     },
     null,
     null,
@@ -830,45 +830,45 @@
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["bottom", "left"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "moon",
-      "border": ["bottom"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "moon",
-      "border": ["bottom"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "moon",
-      "border": ["right", "bottom"],
+      "border": ["bottom", "left"],
       "rat": true
     },
     {
       "fill": "",
       "group": null,
-      "icon": "",
-      "border": ["bottom"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
-      "border": ["bottom"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
+      "icon": "moon",
       "border": ["bottom"],
       "rat": true
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "moon",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "moon",
+      "border": ["right", "bottom"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["bottom"]
     },
     {
       "fill": "",

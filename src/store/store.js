@@ -3,10 +3,18 @@ import Vuex from "vuex";
 import createPersistedState from "vuex-persistedstate";
 
 import boat1 from "../data/boat1.json";
+import boat2 from "../data/boat2.json";
+import boat3 from "../data/boat3.json";
+import boat4 from "../data/boat4.json";
+import boat5 from "../data/boat5.json";
+import boat6 from "../data/boat6.json";
 
 Vue.use(Vuex);
 
 const getDefaultState = () => {
+  const boats = [boat1, boat2,boat3,boat4,boat5,boat6];
+
+  const boat = boats[Math.floor(Math.random() * boats.length)]
   return {
     selectedColor: "",
     currentPlaces: [],
@@ -20,7 +28,7 @@ const getDefaultState = () => {
       common: 0,
       rare: 0,
     },
-    boat: boat1,
+    boat,
     lessons: [],
     specials: [],
     rounds: [],
@@ -93,7 +101,7 @@ export default new Vuex.Store({
         state.boat[i][j].fill = color;
         state.currentPlaces.push({i, j});
       } else {
-        const index = state.currentPlaces.findIndex(({ii, jj}) => ii === i && jj === j);
+        const index = state.currentPlaces.findIndex((places) => places.i === i && places.j === j);
         state.currentPlaces.splice(index, 1)
         state.boat[i][j].fill = "";
         state.boat[i][j].group = null;

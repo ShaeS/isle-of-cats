@@ -12,19 +12,21 @@
       "group": null,
       "icon": "moon",
       "border": ["top", "left"],
-      "map": "green"
+      "map": "blue"
     },
     {
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["top"]
+      "border": ["top"],
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["top"]
+      "border": ["top"],
+      "rat": true
     },
     {
       "fill": "",
@@ -36,29 +38,25 @@
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top", "right"],
-      "rat": true
+      "border": ["top", "right"]
     },
     null,
     null,
@@ -77,8 +75,7 @@
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["bottom", "left", "top"],
-      "rat": true
+      "border": ["bottom", "left", "top"]
     },
     {
       "fill": "",
@@ -135,19 +132,21 @@
       "fill": "",
       "group": null,
       "icon": "",
-      "map": "blue"
+      "map": "orange"
     },
     {
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top"]
+      "border": ["top"],
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["left", "top", "right"]
+      "border": ["left", "top", "right"],
+      "rat": true
     },
     null,
     null,
@@ -162,13 +161,15 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["top", "left"]
+      "border": ["top", "left"],
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["top"]
+      "border": ["top"],
+      "rat": true
     },
     {
       "fill": "",
@@ -246,15 +247,13 @@
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["top", "right"],
-      "rat": true
+      "border": ["top", "right"]
     },
     null,
     null,
@@ -265,13 +264,14 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["top", "left"]
+      "border": ["top", "left"],
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "map": "red"
+      "map": "purple"
     },
     {
       "fill": "",
@@ -299,19 +299,6 @@
       "fill": "",
       "group": null,
       "icon": "apple",
-      "border": ["top"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "apple",
-      "border": ["top"],
-      "rat": true
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "apple",
       "border": ["top"],
       "rat": true
     },
@@ -320,6 +307,19 @@
       "group": null,
       "icon": "apple",
       "border": ["top"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "apple",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "apple",
+      "border": ["top"],
+      "rat": true
     },
     {
       "fill": "",
@@ -372,8 +372,7 @@
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["right", "top"],
-      "rat": true
+      "border": ["right", "top"]
     },
     {
       "fill": "",
@@ -451,17 +450,20 @@
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
@@ -507,14 +509,12 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["left", "bottom"],
-      "rat": true
+      "border": ["left", "bottom"]
     },
     {
       "fill": "",
       "group": null,
-      "icon": "parrot",
-      "rat": true
+      "icon": "parrot"
     },
     {
       "fill": "",
@@ -614,7 +614,7 @@
       "group": null,
       "icon": "feather",
       "border": ["right", "bottom"],
-      "map": "orange"
+      "map": "green"
     },
     {
       "fill": "",
@@ -631,8 +631,7 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["left", "bottom"],
-      "rat": true
+      "border": ["left", "bottom"]
     },
     {
       "fill": "",
@@ -645,51 +644,6 @@
       "group": null,
       "icon": "parrot",
       "border": ["right", "bottom"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
     },
     {
       "fill": "",
@@ -710,6 +664,52 @@
     {
       "fill": "",
       "group": null,
+      "icon": "",
+      "rat": true
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": ""
+    },
+    {
+      "fill": "",
+      "group": null,
       "icon": "feather",
       "border": ["left"]
     },
@@ -717,13 +717,15 @@
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["bottom"]
+      "border": ["bottom"],
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["bottom", "right"]
+      "border": ["bottom", "right"],
+      "rat": true
     },
     null,
     null,
@@ -769,7 +771,7 @@
       "group": null,
       "icon": "moon",
       "border": ["top"],
-      "map": "purple"
+      "map": "red"
     },
     {
       "fill": "",
@@ -780,6 +782,12 @@
     {
       "fill": "",
       "group": null,
+      "icon": "",
+      "rat": true
+    },
+    {
+      "fill": "",
+      "group": null,
       "icon": ""
     },
     {
@@ -796,14 +804,7 @@
       "fill": "",
       "group": null,
       "icon": "",
-      "rat": true
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
-      "border": ["bottom"],
-      "rat": true
+      "border": ["bottom"]
     },
     {
       "fill": "",
@@ -848,20 +849,7 @@
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["right", "bottom"],
-      "rat": true
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
-      "border": ["bottom"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
-      "border": ["bottom"]
+      "border": ["right", "bottom"]
     },
     {
       "fill": "",
@@ -874,8 +862,20 @@
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["bottom", "right"],
+      "border": ["bottom"],
       "rat": true
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["bottom", "right"]
     },
     null,
     null,

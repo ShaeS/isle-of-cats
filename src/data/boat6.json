@@ -12,7 +12,7 @@
       "group": null,
       "icon": "moon",
       "border": ["top", "left"],
-      "map": "green"
+      "map": "orange"
     },
     {
       "fill": "",
@@ -30,35 +30,32 @@
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["top", "right"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
-      "border": ["top"],
-      "rat": true
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
-      "border": ["top"],
-      "rat": true
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
-      "border": ["top"],
-      "rat": true
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
       "border": ["top", "right"],
       "rat": true
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["top"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["top", "right"]
     },
     null,
     null,
@@ -77,8 +74,7 @@
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["bottom", "left", "top"],
-      "rat": true
+      "border": ["bottom", "left", "top"]
     },
     {
       "fill": "",
@@ -141,7 +137,8 @@
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top"]
+      "border": ["top"],
+      "rat": true
     },
     {
       "fill": "",
@@ -157,7 +154,6 @@
   ],
   [
     null,
-
     {
       "fill": "",
       "group": null,
@@ -174,7 +170,8 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["right", "top"]
+      "border": ["right", "top"],
+      "rat": true
     },
     {
       "fill": "",
@@ -246,15 +243,13 @@
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["top", "right"],
-      "rat": true
+      "border": ["top", "right"]
     },
     null,
     null,
@@ -305,15 +300,13 @@
       "fill": "",
       "group": null,
       "icon": "apple",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "apple",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
@@ -335,12 +328,14 @@
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
@@ -372,8 +367,7 @@
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["right", "top"],
-      "rat": true
+      "border": ["right", "top"]
     },
     {
       "fill": "",
@@ -388,7 +382,8 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["left"]
+      "border": ["left"],
+      "rat": true
     },
     {
       "fill": "",
@@ -446,12 +441,14 @@
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
@@ -482,7 +479,8 @@
     {
       "fill": "",
       "group": null,
-      "icon": "feather"
+      "icon": "feather",
+      "rat": true
     },
     {
       "fill": "",
@@ -507,8 +505,7 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["left", "bottom"],
-      "rat": true
+      "border": ["left", "bottom"]
     },
     {
       "fill": "",
@@ -536,13 +533,15 @@
       "fill": "",
       "group": null,
       "icon": "apple",
-      "border": ["left", "bottom"]
+      "border": ["left", "bottom"],
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
       "icon": "apple",
-      "border": ["bottom"]
+      "border": ["bottom"],
+      "rat": true
     },
     {
       "fill": "",
@@ -607,14 +606,15 @@
     {
       "fill": "",
       "group": null,
-      "icon": "feather"
+      "icon": "feather",
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
       "icon": "feather",
       "border": ["right", "bottom"],
-      "map": "orange"
+      "map": "green"
     },
     {
       "fill": "",
@@ -626,13 +626,11 @@
   ],
   [
     null,
-
     {
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["left", "bottom"],
-      "rat": true
+      "border": ["left", "bottom"]
     },
     {
       "fill": "",
@@ -704,8 +702,7 @@
     {
       "fill": "",
       "group": null,
-      "icon": "",
-      "rat": true
+      "icon": ""
     },
     {
       "fill": "",
@@ -723,7 +720,8 @@
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["bottom", "right"]
+      "border": ["bottom", "right"],
+      "rat": true
     },
     null,
     null,
@@ -738,7 +736,8 @@
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["top", "left", "bottom"]
+      "border": ["top", "left", "bottom"],
+      "rat": true
     },
     {
       "fill": "",
@@ -780,6 +779,12 @@
     {
       "fill": "",
       "group": null,
+      "icon": "",
+      "rat": true
+    },
+    {
+      "fill": "",
+      "group": null,
       "icon": ""
     },
     {
@@ -796,14 +801,7 @@
       "fill": "",
       "group": null,
       "icon": "",
-      "rat": true
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
-      "border": ["bottom"],
-      "rat": true
+      "border": ["bottom"]
     },
     {
       "fill": "",
@@ -848,20 +846,7 @@
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["right", "bottom"],
-      "rat": true
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
-      "border": ["bottom"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
-      "border": ["bottom"]
+      "border": ["right", "bottom"]
     },
     {
       "fill": "",
@@ -874,8 +859,21 @@
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["bottom", "right"],
+      "border": ["bottom"],
       "rat": true
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["bottom"],
+      "rat": true
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["bottom", "right"]
     },
     null,
     null,

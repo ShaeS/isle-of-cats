@@ -3,7 +3,8 @@
     <div class="title-wrap">
       <a class="rules" href="http://thecityofkings.com/wp-content/uploads/2020/04/The-Isle-of-Cats-Remote-Edition-Rulebook-v1.0.pdf" target="_blank">Game Rules</a>
       <h1>The Isle Of Cats: Remote Edition</h1>
-      <button @click="resetGame" class="reset">Reset Game</button>
+      <button v-if="confirming" @click="resetGame" class="reset confirm">Are you sure?</button>
+      <button v-else @click="confirming = true" class="reset">Reset Game</button>
     </div>
     <Boat />
     <div class="container">
@@ -34,6 +35,11 @@ export default {
     Specials,
     Notes,
     Score,
+  },
+  data() {
+    return {
+      confirming: false
+    }
   },
   methods: {
     resetGame() {
@@ -113,6 +119,10 @@ h1 {
   border-radius: 100px;
   cursor: pointer;
   font-weight: bold;
+}
+
+.reset.confirm {
+  background: var(--var-red-dark);
 }
 
 .reset:hover {

@@ -12,7 +12,7 @@
       "group": null,
       "icon": "moon",
       "border": ["top", "left"],
-      "map": "green"
+      "map": "red"
     },
     {
       "fill": "",
@@ -36,29 +36,25 @@
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["top", "right"],
-      "rat": true
+      "border": ["top", "right"]
     },
     null,
     null,
@@ -77,7 +73,13 @@
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["bottom", "left", "top"],
+      "border": ["bottom", "left", "top"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "moon",
+      "border": ["bottom", "top"],
       "rat": true
     },
     {
@@ -90,12 +92,6 @@
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["bottom", "top"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "moon",
       "border": ["bottom"]
     },
     {
@@ -114,7 +110,8 @@
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["bottom", "right"]
+      "border": ["bottom", "right"],
+      "rat": true
     },
     {
       "fill": "",
@@ -135,7 +132,7 @@
       "fill": "",
       "group": null,
       "icon": "",
-      "map": "blue"
+      "map": "purple"
     },
     {
       "fill": "",
@@ -157,7 +154,6 @@
   ],
   [
     null,
-
     {
       "fill": "",
       "group": null,
@@ -209,7 +205,14 @@
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
@@ -224,17 +227,14 @@
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
-      "icon": ""
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
@@ -246,8 +246,7 @@
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
@@ -271,7 +270,7 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "map": "red"
+      "map": "orange"
     },
     {
       "fill": "",
@@ -305,15 +304,13 @@
       "fill": "",
       "group": null,
       "icon": "apple",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
       "group": null,
       "icon": "apple",
-      "border": ["top"],
-      "rat": true
+      "border": ["top"]
     },
     {
       "fill": "",
@@ -350,7 +347,8 @@
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
@@ -372,8 +370,7 @@
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["right", "top"],
-      "rat": true
+      "border": ["right", "top"]
     },
     {
       "fill": "",
@@ -425,12 +422,14 @@
     {
       "fill": "",
       "group": null,
-      "icon": "apple"
+      "icon": "apple",
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
-      "icon": "apple"
+      "icon": "apple",
+      "rat": true
     },
     {
       "fill": "",
@@ -488,7 +487,8 @@
       "fill": "",
       "group": null,
       "icon": "feather",
-      "border": ["right"]
+      "border": ["right"],
+      "rat": true
     },
     {
       "fill": "",
@@ -507,14 +507,12 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["left", "bottom"],
-      "rat": true
+      "border": ["left", "bottom"]
     },
     {
       "fill": "",
       "group": null,
-      "icon": "parrot",
-      "rat": true
+      "icon": "parrot"
     },
     {
       "fill": "",
@@ -586,12 +584,14 @@
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
-      "icon": ""
+      "icon": "",
+      "rat": true
     },
     {
       "fill": "",
@@ -614,7 +614,7 @@
       "group": null,
       "icon": "feather",
       "border": ["right", "bottom"],
-      "map": "orange"
+      "map": "blue"
     },
     {
       "fill": "",
@@ -626,7 +626,6 @@
   ],
   [
     null,
-
     {
       "fill": "",
       "group": null,
@@ -638,23 +637,15 @@
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["bottom"]
+      "border": ["bottom"],
+      "rat": true
     },
     {
       "fill": "",
       "group": null,
       "icon": "parrot",
-      "border": ["right", "bottom"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": ""
+      "border": ["right", "bottom"],
+      "rat": true
     },
     {
       "fill": "",
@@ -706,6 +697,17 @@
       "group": null,
       "icon": "",
       "rat": true
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "rat": true
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": ""
     },
     {
       "fill": "",
@@ -769,7 +771,7 @@
       "group": null,
       "icon": "moon",
       "border": ["top"],
-      "map": "purple"
+      "map": "green"
     },
     {
       "fill": "",
@@ -795,15 +797,13 @@
     {
       "fill": "",
       "group": null,
-      "icon": "",
-      "rat": true
+      "icon": ""
     },
     {
       "fill": "",
       "group": null,
       "icon": "",
-      "border": ["bottom"],
-      "rat": true
+      "border": ["bottom"]
     },
     {
       "fill": "",
@@ -842,40 +842,38 @@
       "fill": "",
       "group": null,
       "icon": "moon",
-      "border": ["bottom"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "moon",
-      "border": ["right", "bottom"],
-      "rat": true
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
-      "border": ["bottom"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
-      "border": ["bottom"]
-    },
-    {
-      "fill": "",
-      "group": null,
-      "icon": "",
       "border": ["bottom"],
       "rat": true
     },
     {
       "fill": "",
       "group": null,
+      "icon": "moon",
+      "border": ["right", "bottom"]
+    },
+    {
+      "fill": "",
+      "group": null,
       "icon": "",
-      "border": ["bottom", "right"],
-      "rat": true
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["bottom"]
+    },
+    {
+      "fill": "",
+      "group": null,
+      "icon": "",
+      "border": ["bottom", "right"]
     },
     null,
     null,
