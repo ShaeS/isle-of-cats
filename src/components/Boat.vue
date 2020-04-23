@@ -471,6 +471,7 @@ export default {
 }
 
 .modal-title {
+  text-align: center;
   margin-bottom: 8px;
 }
 
