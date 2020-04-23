@@ -12,11 +12,11 @@ import boat6 from "../data/boat6.json";
 Vue.use(Vuex);
 
 const getDefaultState = () => {
-  const boats = [boat1, boat2,boat3,boat4,boat5,boat6];
+  const boats = [boat1, boat2, boat3, boat4, boat5, boat6];
 
-  const boat = boats[Math.floor(Math.random() * boats.length)]
+  const boat = boats[Math.floor(Math.random() * boats.length)];
   return {
-    selectedColor: "",
+    selectedColor: null,
     currentPlaces: [],
     drawing: false,
     colorStep: {
@@ -90,26 +90,67 @@ export default new Vuex.Store({
     },
   },
   mutations: {
+    deleteHighlight(state, payload) {
+      const boat = [...state.boat];
+      boat.forEach((row) => {
+        row.forEach((square) => {
+          if (payload && square) {
+            square.temporaryFill = "";
+            if (square && payload.group !== null && square.group === payload.group && square.fill === payload.fill) {
+              square.temporaryFill = "#e61c1c";
+            }
+          }
+        });
+      });
+
+      state.boat = boat;
+    },
+    deletePiece(state, payload) {
+      const boat = [...state.boat];
+      const {group, fill} = payload;
+      boat.forEach((row) => {
+        row.forEach((square) => {
+          if (payload && square) {
+            if (square && group !== null && square.group === group && square.fill === fill) {
+              square.fill = "";
+              square.group = null;
+              square.temporaryFill = "";
+            }
+          }
+        });
+      });
+
+      state.boat = boat;
+    },
     selectColor(state, color) {
       state.selectedColor = color;
     },
-    handleClick(state, { i, j, color }) {
-      if (state.selectedColor) {
-        state.drawing = true;
+    temporaryFill(state, payload) {
+      const boat = [...state.boat];
+      boat.forEach((row) => {
+        row.forEach((square) => {
+          if (square) {
+            square.temporaryFill = "";
+          }
+        });
+      });
+
+      if (payload) {
+        payload.shape.forEach((piece) => {
+          Vue.set(boat[payload.i + piece.i][payload.j + piece.j], "temporaryFill", payload.color);
+        });
       }
-      if (state.boat[i][j].fill === "") {
-        state.boat[i][j].fill = color;
-        state.currentPlaces.push({i, j});
-      } else {
-        const index = state.currentPlaces.findIndex((places) => places.i === i && places.j === j);
-        state.currentPlaces.splice(index, 1)
-        state.boat[i][j].fill = "";
-        state.boat[i][j].group = null;
-      }
+
+      state.boat = boat;
+    },
+    handleClick(state, places) {
+      state.currentPlaces = places;
     },
     assignNumber(state) {
       state.currentPlaces.map(({ i, j }) => {
         state.boat[i][j].group = state.colorStep[state.selectedColor];
+        state.boat[i][j].fill = state.boat[i][j].temporaryFill;
+        state.boat[i][j].temporaryFill = "";
       });
     },
     updateLessons(state, payload) {
@@ -124,6 +165,9 @@ export default new Vuex.Store({
     updateScores(state, payload) {
       state.scores = payload;
     },
+    updateDrawing(state, payload) {
+      state.drawing = payload;
+    },
     resetState(state) {
       Object.assign(state, getDefaultState());
     },
@@ -136,15 +180,13 @@ export default new Vuex.Store({
       commit("assignNumber");
       state.colorStep[state.selectedColor]++;
       state.drawing = false;
-      commit("selectColor", "");
+      commit("selectColor", null);
       state.currentPlaces = [];
     },
     cancelPiece({ state, commit }) {
       state.drawing = false;
       commit("selectColor", "");
-      state.currentPlaces.forEach(({i,j}) => {
-        state.boat[i][j].fill = '';
-      });
+      commit("temporaryFill")
       state.currentPlaces = [];
     },
   },

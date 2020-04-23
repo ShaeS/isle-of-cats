@@ -1,10 +1,20 @@
 <template>
   <div id="app">
     <div class="title-wrap">
-      <a class="rules" href="http://thecityofkings.com/wp-content/uploads/2020/04/The-Isle-of-Cats-Remote-Edition-Rulebook-v1.0.pdf" target="_blank">Game Rules</a>
+      <a
+        class="rules"
+        href="http://thecityofkings.com/wp-content/uploads/2020/04/The-Isle-of-Cats-Remote-Edition-Rulebook-v1.0.pdf"
+        target="_blank"
+        >Game Rules</a
+      >
       <h1>The Isle Of Cats: Remote Edition</h1>
-      <button v-if="confirming" @click="resetGame" class="reset confirm">Are you sure?</button>
-      <button v-else @click="confirming = true" class="reset">Reset Game</button>
+      <div v-if="confirming">
+        <button @click="confirming = false" class="reset cancel">Cancel</button>
+        <button @click="resetGame" class="reset confirm">Are you sure?</button>
+      </div>
+      <button v-else @click="confirming = true" class="reset">
+        Reset Game
+      </button>
     </div>
     <Boat />
     <div class="container">
@@ -38,15 +48,15 @@ export default {
   },
   data() {
     return {
-      confirming: false
-    }
+      confirming: false,
+    };
   },
   methods: {
     resetGame() {
       window.location.reload();
-      this.$store.dispatch('newGame')
-    }
-  }
+      this.$store.dispatch("newGame");
+    },
+  },
 };
 </script>
 
@@ -106,7 +116,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 
 .reset {
@@ -123,6 +133,14 @@ h1 {
 
 .reset.confirm {
   background: var(--var-red-dark);
+}
+
+.reset.cancel {
+  background: var(--var-common);
+}
+
+.reset.cancel:hover {
+  background: var(--var-green);
 }
 
 .reset:hover {

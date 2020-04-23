@@ -1,6 +1,5 @@
 <template>
   <div
-    @click="handleClick(i, j, square)"
     class="square"
     :class="[`row-${i + 1}`, !square && 'empty']"
   >
@@ -10,6 +9,11 @@
         class="fill"
         :class="{hide: hiding}"
         :style="{ background: square.fill, ...borderStyles }"
+      ></div>
+      <div
+        v-if="square.temporaryFill"
+        class="fill"
+        :style="{ background: square.temporaryFill }"
       ></div>
       <template v-if="square.border">
         <div
@@ -97,11 +101,6 @@ export default {
   methods: {
     placePiece() {
       this.$store.dispatch("placePiece");
-    },
-    handleClick(i, j, square) {
-      if (square) {
-        this.$store.commit("handleClick", { i, j, color: this.tileColor });
-      }
     },
   },
 };

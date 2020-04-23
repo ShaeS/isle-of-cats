@@ -5,7 +5,7 @@
       <div class="lesson-list" :class="lessons.length > 1 && 'columns'">
         <p v-for="lesson in lessons" :key="lesson">{{ lesson }}</p>
         <div v-if="lessons.length === 0" class="sub-text">
-          You have no lessons
+          You have no active lessons. <button @click="showModal = true" class="quick-add">Add One?</button>
         </div>
       </div>
     </div>
@@ -100,6 +100,7 @@ export default {
 
 .sub-text {
   color: #777;
+  font-size: 16px;
 }
 
 .modal-card {
@@ -129,6 +130,14 @@ h2 {
   height: 10px;
   width: 10px;
   margin-right: 8px;
+}
+
+.quick-add {
+  color: var(--var-blue);
+  font-weight: bold;
+  border: 0;
+  background: none;
+  font-size: 14px;
 }
 
 .button {
