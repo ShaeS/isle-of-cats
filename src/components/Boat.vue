@@ -414,8 +414,8 @@ export default {
 
 .small-grid {
   display: grid;
-  grid-template-rows: repeat(4, 60px);
-  grid-template-columns: repeat(4, 60px);
+  grid-template-rows: repeat(5, 60px);
+  grid-template-columns: repeat(5, 60px);
   grid-gap: 1px;
 }
 
