@@ -94,10 +94,11 @@ import right from "../assets/icons/right.svg";
 import flip from "../assets/icons/flip.svg";
 
 const defaultPiece = [
-  [false, false, false, false],
-  [false, false, false, false],
-  [false, false, false, false],
-  [false, false, false, false],
+  [false, false, false, false, false],
+  [false, false, false, false, false],
+  [false, false, false, false, false],
+  [false, false, false, false, false],
+  [false, false, false, false, false],
 ];
 
 export default {
